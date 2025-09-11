@@ -1,6 +1,5 @@
 import { Router, Request, Response, response } from 'express';
 import { authors, Author } from '../models/author';
-import { request } from 'http';
 
 const router = Router();
 
@@ -60,7 +59,7 @@ router.delete('/:id', (req: Request, res: Response) => {
     if (index === -1)
         return res.status(404).json({ error: "Author not found" });
 
-    authors.splice(index, 1); // actually remove the author
+    authors.splice(index, 1); // remove the author
     res.status(204).send(); // successful deletion, no content
 });
 
