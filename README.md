@@ -9,9 +9,7 @@ A **RESTful API** for managing a library system with **Authors** and **Books**, 
 1. [Overview](#overview)  
 2. [Features](#features)  
 3. [Installation](#installation)  
-4. [Running the API](#running-the-api)  
-5. [API Endpoints](#api-endpoints)  
-6. [Middleware](#middleware)  
+4. [Running the API](#running-the-api)   
 7. [Error Handling](#error-handling)  
 8. [Screenshots](#screenshots)  
 
