@@ -71,9 +71,42 @@ npm run dev
 - Create
   <img width="962" height="1141" alt="creat" src="https://github.com/user-attachments/assets/cff92ae8-dd23-494c-90cd-1b5fdc379cca" />
 
+-- Creating Author
+```
+  {
+  "name": "Vhasa",
+  "biography": "Mlab Academy",
+  "email": "Rori@mlab.com"
+}
+```
+-- Creating a book
+```
+{
+  "title": "How to Make Money",
+  "year": 2025,
+  "authorId": 1
+}
+```
+-- Updating the book
+
+```
+{
+  "id": 1,
+  "title": "How to Make More Money",
+  "year": 2026,
+  "authorId": 1
+}
+```
+
+
+
 - Read
    <img width="956" height="1141" alt="image" src="https://github.com/user-attachments/assets/0458477b-d847-466d-8720-08be8973c551" />
    <img width="957" height="1145" alt="GetAll" src="https://github.com/user-attachments/assets/23ddb75b-a2e6-4973-90ad-703be3086018" />
+```
+
+```
+
 
 - Update 
   <img width="962" height="1132" alt="update" src="https://github.com/user-attachments/assets/ea740e78-772e-404e-b243-4a23d142e9d4" />
