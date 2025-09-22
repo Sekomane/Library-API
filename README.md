@@ -71,7 +71,7 @@ npm run dev
 - Create
   <img width="962" height="1141" alt="creat" src="https://github.com/user-attachments/assets/cff92ae8-dd23-494c-90cd-1b5fdc379cca" />
 
--- Creating Author
+# Creating the Author
 ```
   {
   "name": "Vhasa",
@@ -79,7 +79,7 @@ npm run dev
   "email": "Rori@mlab.com"
 }
 ```
--- Creating a book
+# Creating the book
 ```
 {
   "title": "How to Make Money",
@@ -87,18 +87,59 @@ npm run dev
   "authorId": 1
 }
 ```
--- Updating the book
+# Update the author by ID
+
+- PUT http://localhost:5000/authors/1
 
 ```
 {
-  "id": 1,
-  "title": "How to Make More Money",
+  "name": "Rorisang Sekomane",
+  "biography": "How to make money (11th gen)",
+  "email": "Rori@gmail.com"
+}
+```
+# Updating the book details by ID
+
+- PUT: http://localhost:5000/books/1
+```
+{
+  "title": "How to make money (Updated Edition)",
   "year": 2026,
   "authorId": 1
 }
+
 ```
 
+# GET all authors
+```
+http://localhost:5000/authors
+```
+# Get author by ID
+  ```
+   http://localhost:5000/authors/1
+  ```
+---
 
+# GET all books
+```
+http://localhost:5000/books
+```
+# GET book by ID
+```
+GET http://localhost:5000/books/1
+```
+---
+
+# Delete author by ID
+```
+http://localhost:5000/authors/1
+```
+
+# Delete book by ID
+
+```
+http://localhost:5000/books/1
+```
 
 - Read
    <img width="956" height="1141" alt="image" src="https://github.com/user-attachments/assets/0458477b-d847-466d-8720-08be8973c551" />
