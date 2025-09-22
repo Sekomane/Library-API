@@ -67,10 +67,6 @@ npm run dev
   - 404 Not Found: Author or book not found
   - 409 Conflict: Duplicate book
 
-## screenshots
-- Create
-  <img width="962" height="1141" alt="creat" src="https://github.com/user-attachments/assets/cff92ae8-dd23-494c-90cd-1b5fdc379cca" />
-
 # Creating the Author
 ```
   {
@@ -87,28 +83,7 @@ npm run dev
   "authorId": 1
 }
 ```
-# Update the author by ID
-
-- PUT http://localhost:5000/authors/1
-
-```
-{
-  "name": "Rorisang Sekomane",
-  "biography": "How to make money (11th gen)",
-  "email": "Rori@gmail.com"
-}
-```
-# Updating the book details by ID
-
-- PUT: http://localhost:5000/books/1
-```
-{
-  "title": "How to make money (Updated Edition)",
-  "year": 2026,
-  "authorId": 1
-}
-
-```
+---
 
 # GET all authors
 ```
@@ -130,6 +105,28 @@ GET http://localhost:5000/books/1
 ```
 ---
 
+
+# Update the author by ID
+
+- PUT http://localhost:5000/authors/1
+```
+{
+  "name": "Rorisang Sekomane",
+  "biography": "How to make money (11th gen)",
+  "email": "Rori@gmail.com"
+}
+```
+# Updating the book details by ID
+
+- PUT: http://localhost:5000/books/1
+```
+{
+  "title": "How to make money (Updated Edition)",
+  "year": 2026,
+  "authorId": 1
+}
+```
+---
 # Delete author by ID
 ```
 http://localhost:5000/authors/1
@@ -141,16 +138,3 @@ http://localhost:5000/authors/1
 http://localhost:5000/books/1
 ```
 
-- Read
-   <img width="956" height="1141" alt="image" src="https://github.com/user-attachments/assets/0458477b-d847-466d-8720-08be8973c551" />
-   <img width="957" height="1145" alt="GetAll" src="https://github.com/user-attachments/assets/23ddb75b-a2e6-4973-90ad-703be3086018" />
-```
-
-```
-
-
-- Update 
-  <img width="962" height="1132" alt="update" src="https://github.com/user-attachments/assets/ea740e78-772e-404e-b243-4a23d142e9d4" />
-
-- Delete 
- <img width="956" height="1141" alt="delete" src="https://github.com/user-attachments/assets/d133eeda-e2cf-42c4-97a4-36c3d08e7bd6" />
